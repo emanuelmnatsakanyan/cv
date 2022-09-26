@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Emanuel's Resume</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="shortcut icon" href="./img/portfolio.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+	<section id='home' class="header__section">
+		<div class="container header__container">
+			<header class="header">
+				<a href="" class="header__logo">Emanuel's Resume</a>
+				<div class="header__menu menu">
+					<div class="menu__icon">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#home" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="#about" class="menu__link">About</a></li>
+							<li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
+							<li class="menu__item"><a href="#portfolio" class="menu__link">Portfolio</a></li>
+							<li class="menu__item"><a href="#contacts" class="menu__link">Contacts</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<div class="name">
+				<h1>Hi, I’m Emanuel Mnatsakanyan</h1>
+				<p>Web developer from Armenia <img src="./img/arm.png" alt="Flag of Armenia"></p>
+			</div>
+			<a href="#portfolio" class="latest">Latest works</a>
+		</div>
+	</section>
+
+	<main>
+		<section id="about">
+			<div class="container about__container">
+				<div class="about__block">
+					<h2 class="title">About</h2>
+					<p>
+						I'm Emanuel Mnatsakanyan. I'm 16 years old and I'm from Vanadzor, Armenia.
+						I'm interested in programming since 2017. I like this profession because of
+						my love for computers and technology and because of creating interesting projects.
+						I have learned programming in Vanadzor Technology Center and myself in internet.
+						The main tools which I use are React.js and React Native for developing web/mobile applications.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section id="skills">
+			<div class="container skills__container">
+				<div class="skills__block">
+					<h2 class="title">Skills</h2>
+					<div class="skills">
+						<div class="skill">
+							<label class="skill-title" for="html">HTML</label>
+							<progress class="skill-progress" id="html" value="80" max="100" />
+						</div>
+						<div class="skill">
+							<label class="skill-title" for="css">CSS</label>
+							<progress class="skill-progress" id="css" value="80" max="100" />
+						</div>
+						<div class="skill">
+							<label class="skill-title" for="Sass">Sass</label>
+							<progress class="skill-progress" id="Sass" value="60" max="100" />
+						</div>
+						<div class="skill">
+							<label class="skill-title" for="bootstrap">Bootstrap</label>
+							<progress class="skill-progress" id="bootstrap" value="70" max="100" />
+						</div>
+						<div class="skill">
+							<label class="skill-title" for="js">JavaScript</label>
+							<progress class="skill-progress" id="js" value="70" max="100" />
+						</div>
+						<div class="skill">
+							<label class="skill-title" for="react">React.js</label>
+							<progress class="skill-progress" id="react" value="50" max="100" />
+						</div>
+						<div class="skill">
+							<label class="skill-title" for="react-native">React Native</label>
+							<progress class="skill-progress" id="react-native" value="40" max="100" />
+						</div>
+						<div class="skill">
+							<label class="skill-title" for="python">Python</label>
+							<progress class="skill-progress" id="python" value="70" max="100" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="portfolio">
+			<div class="container portfolio__container">
+				<div class="portfolio__block">
+					<div>
+						<h2 class="title">Portfolio</h2>
+					</div>
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<a href="https://emanuelmnatsakanyan.github.io/to-do/" target="_blank"
+									class="swiper-slide-title">To-Do List</a>
+								<div class="swiper-slide-body">
+									<p class="about-project">
+										This is a simple to-do list application which saves items in local storage.
+										<br>
+										<span>Created with React, React-boostrap.</span>
+
+									</p>
+									<div class="project-gallery">
+										<img src="./img/to-do_1.png" alt="to-do 1">
+										<img src="./img/to-do_2.png" alt="to-do 2">
+										<img src="./img/to-do_3.png" alt="to-do ">
+										<img src="./img/to-do_4.png" alt="to-do 4">
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<a href="https://emanuelmnatsakanyan.github.io/hoobank/" target="_blank"
+									class="swiper-slide-title">Hoobank</a>
+								<div class="swiper-slide-body">
+									<p class="about-project">
+										Responsive landing page with UI/UX.
+										<br>
+										<span>Created with React, Tailwind CSS.</span>
+
+									</p>
+									<div class="project-gallery">
+										<img src="./img/hoobank_1.png" alt="hoobank 1">
+										<img src="./img/hoobank_2.png" alt="hoobank 2">
+										<img src="./img/hoobank_3.png" alt="hoobank ">
+										<img src="./img/hoobank_4.png" alt="to-do 4">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer id="contacts">
+		<div class="container contacts__container">
+			<div class="contacts__block">
+				<h2 class="title">Contacts</h2>
+				<div class="links"> 
+					<a href="https://github.com/emanuelmnatsakanyan" target="_blank">GitHub</a>
+					<a href="https://www.linkedin.com/in/emanuel-mnatsakanyan-a24b6122b/" target="_blank">LinkedIn</a>
+					<a href="https://www.upwork.com/freelancers/~01e5fb793dbf79f227" target="_blank">Upwork</a>
+					<a href="mailto:mnatsakanyanemanuel@gmail.com">mnatsakanyanemanuel@gmail.com</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/script.js"></script>
+	<script type="module">
+		import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+
+		const swiper = new Swiper('.swiper', {
+			direction: 'horizontal',
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+
+		});
+	</script>
+</body>
+
+</html>
